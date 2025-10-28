@@ -1,8 +1,30 @@
-/debug/
-/file-history/
-/.idea
-/shell-snapshots/
-/statsig/
-/projects/
-/todos/
-/ide
+# Local/temporary files
+debug/
+file-history/
+history.jsonl
+session-env/
+shell-snapshots/
+todos/
+.update.lock
+
+.idea
+
+# Project-specific session histories
+projects/
+
+# Cache files
+statsig/
+
+# IDE lock files
+ide/*.lock
+
+# External plugin repositories (managed separately)
+plugins/marketplaces/
+
+# System files
+.DS_Store
+
+# Node modules (if any)
+node_modules/
+.vscode/*
+
